@@ -1,0 +1,11 @@
+.DS_Store
+_site/
+node_modules/
+*.log
+
+# 本地独立页面不属于本次手册站点。
+/ai-labs-timeline.html
+
+# 本地预览和验收产物。
+/.preview/
+/screenshots/
