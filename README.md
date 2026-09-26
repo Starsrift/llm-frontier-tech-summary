@@ -4,6 +4,8 @@
 
 ## 阅读
 
+**在线网站：** https://starsrift.github.io/llm-frontier-tech-summary/
+
 - 网站首页：`index.html`。
 - 兼容原路径：`llm-tech-stack-handbook.html`，内容与首页保持一致。
 - 本地使用：直接用浏览器打开任一 HTML 文件。
