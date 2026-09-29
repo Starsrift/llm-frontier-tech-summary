@@ -13,6 +13,12 @@
 
 页面提供章节导航、全文搜索、阅读进度、学习路线和 KV Cache 显存计算等功能。资料核验日期与内容边界以页面内说明为准。
 
+首页采用受 [Astro Dither](https://astrodither.robertborghesi.is/) 启发的黑底、霓虹像素与光轨视觉；中央图形为本页独立生成的 Canvas 装饰动画，不表示实际模型架构或实验数据。无需下载外部模型、字体或脚本，正文与首页均可离线使用。
+
+- 首页四个方向入口会选择对应学习路线；顶部“目录 / 搜索”或 `/`、`⌘/Ctrl + K` 可打开导航，输入关键词后按 `Enter` 查看结果，`Esc` 关闭目录。
+- 动画支持手动暂停，默认遵循系统“减少动态效果”设置；首屏离开视野或标签页隐藏时停止动画。
+- 两个 HTML 入口保持一致，现有章节锚点、学习进度和资料筛选继续可用。
+
 ## GitHub Pages 发布
 
 工作流位于 [`.github/workflows/pages.yml`](.github/workflows/pages.yml)，使用 GitHub 官方 Pages Actions，无需安装 Node.js、npm 包或其他构建依赖。
